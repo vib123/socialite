@@ -56,7 +56,19 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
                                 </button>
+                                
+                                or 
 
+                                <a class="btn btn-secondary" href="{{ route('social-login.redirect', 'github') }}">
+                                        Login with github
+                                    </a>
+                                <a class="btn btn-secondary" href="{{ route('social-login.redirect', 'facebook') }}">
+                                        Login with facebook
+                                    </a>
+                                <a class="btn btn-secondary" href="{{ route('social-login.redirect', 'google') }}">
+                                        Login with google
+                                    </a>
+                                    
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
                                         {{ __('Forgot Your Password?') }}
