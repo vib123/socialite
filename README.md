@@ -2,7 +2,7 @@
 Using socialite package for login in our app which build in Laravel.
 
 
-composer install
+<p>composer install<p>
 composer update
 php artisan migrate
 npm install
