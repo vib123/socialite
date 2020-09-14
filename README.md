@@ -4,11 +4,12 @@ Using socialite package for login in our app which build in Laravel.
 
 composer install <br />
 composer update <br />
+rename .env.example to .env file <br />
+define your database there <br />
 php artisan migrate <br />
 npm install <br />
 npm run dev <br />
-rename .env.example to .env file <br />
-define your database there <br />
+
 
 GITHUB_CLIENT_ID = Your_GITHUB_CLIENT_ID <br />
 GITHUB_CLIENT_SECRET = Your_GITHUB_CLIENT_SECRET <br />
